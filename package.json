@@ -1,0 +1,32 @@
+{ 
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.33.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.1",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0",
+    "yarn": "^1.22.19"
+  },
+  "name": "events-ahj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/requex22/events.ahj.git",
+  "author": "Stanislav <stas_sokolov_2001@mail.ru>",
+  "license": "MIT"
+}
